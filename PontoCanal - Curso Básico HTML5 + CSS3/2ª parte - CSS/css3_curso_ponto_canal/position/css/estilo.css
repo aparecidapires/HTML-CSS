@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+div.pai {
+	margin: 40px;
+	color: white;
+	font-size: 30px;
+	background-color: #39f;
+	width: 600px;
+	height: 600px;
+	/*position: relative;
+	top: 50px;
+	left: 50px;*/
+}
+
+div.filho {
+	color: white;
+	font-size: 30px;
+	background-color: #f60;
+	width: 400px;
+	height: 400px;
+	margin-left: 10px;
+	margin-top: 10px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}

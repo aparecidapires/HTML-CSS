@@ -1,0 +1,29 @@
+div {
+	border: 2px solid black;
+	color: #fff;
+	padding: 5px;
+	display: block;
+}
+
+div.fora1, div.fora2 {
+	background: aqua;
+	height: 100px;
+}
+
+div.meio1, div.meio2 {
+	background: crimson;
+}
+
+div.dentro1, div.dentro2 {
+	background: deepskyblue;
+}
+
+div.fora1 {
+	margin-bottom: 20px;
+}
+
+/*Quando é definida uma margin-bottom para um elemento e uma "margin-top" para o elemento sub-sequente, as margens não são somadas! prevalece 
+a margin com tamanho maior*/
+div.fora2 {
+	margin-top: 15px;
+}

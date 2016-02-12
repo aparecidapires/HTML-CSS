@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+div {
+	width: 950px;
+	height: 350px;
+	margin: 30px;
+	border: 1px solid blue;
+	/*"vertical-align: middle;" é usado em linha ou célula. Para ser usado em uma div deve ser usado juntamente com o "display: table-cell;"*/
+	display: table-cell;
+	vertical-align: middle;
+}
+
+div span {
+	font-size: 40px;
+}

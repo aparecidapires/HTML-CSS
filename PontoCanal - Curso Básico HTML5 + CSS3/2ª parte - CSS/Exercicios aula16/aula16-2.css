@@ -1,0 +1,17 @@
+div {
+	border: 2px solid black;
+	color: #fff;
+	padding: 5px;
+}
+
+div.fora {
+	background: aqua;
+}
+
+div.meio {
+	background: crimson;
+}
+
+div.dentro {
+	background: deepskyblue;
+}
